@@ -110,7 +110,7 @@ export default function Hero({ headline, subheading, ctaText, ctaLink, videoSrc 
         </div>
 
         {/* Stats row */}
-        <div className="mt-16 grid grid-cols-3 gap-8 max-w-xl mx-auto">
+        {/* <div className="mt-16 grid grid-cols-3 gap-8 max-w-xl mx-auto">
           {[
             { val: '500+', label: 'Projects Delivered' },
             { val: '15+', label: 'Years Experience' },
@@ -121,7 +121,7 @@ export default function Hero({ headline, subheading, ctaText, ctaLink, videoSrc 
               <div className="font-['DM_Sans'] text-xs text-white/50 mt-1">{stat.label}</div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Scroll indicator */}
