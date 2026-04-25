@@ -1,0 +1,76 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0B1F3A;
+  --navy-mid: #122849;
+  --navy-light: #1a3560;
+  --orange: #F97316;
+  --orange-dark: #ea6400;
+  --orange-glow: rgba(249, 115, 22, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #1a1a2e;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Fade-in animation via IntersectionObserver */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-section.delay-1 { transition-delay: 0.1s; }
+.fade-in-section.delay-2 { transition-delay: 0.2s; }
+.fade-in-section.delay-3 { transition-delay: 0.3s; }
+.fade-in-section.delay-4 { transition-delay: 0.4s; }
+.fade-in-section.delay-5 { transition-delay: 0.5s; }
+
+/* Orange underline animation */
+.hover-underline-orange {
+  position: relative;
+}
+.hover-underline-orange::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--orange);
+  transition: width 0.3s ease;
+}
+.hover-underline-orange:hover::after {
+  width: 100%;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: var(--navy); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--orange); }
