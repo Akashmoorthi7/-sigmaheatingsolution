@@ -78,9 +78,12 @@ export default function About() {
                 Sigma Heating Solution
               </h2>
               <p className="font-['DM_Sans'] text-gray-500 leading-relaxed mb-8">
-                Sigma Heating Solution is a trusted provider of advanced thermal engineering systems, delivering high-performance heating solutions for various industries. With a focus on quality, innovation, and sustainability, we design systems that improve productivity while reducing energy consumption.
+               At Sigma Heating Solutions, we are your trusted partner for advanced heating, cooling, and water systems.
+               With a dedicated team of skilled professionals, we specialize in delivering customized and energy efficient solutions.
+               Our approach is carefully tailored to meet the diverse and demanding needs of industrial and commercial sectors, ensuring optimal performance and sustainability.
+
               </p>
-              <div className="flex flex-wrap gap-4">
+              {/* <div className="flex flex-wrap gap-4">
                 {[
                   { val: '500+', label: 'Projects' },
                   { val: '15+', label: 'Years' },
@@ -91,7 +94,7 @@ export default function About() {
                     <div className="font-['DM_Sans'] text-xs text-gray-400 mt-1">{s.label}</div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Visual */}

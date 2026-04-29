@@ -1,9 +1,14 @@
 // src/pages/Services.tsx
 import { useEffect, useRef } from 'react'
 import ServiceCard from '../components/ServiceCard'
-import { Flame, Thermometer, Zap, Droplets, Recycle } from 'lucide-react'
+import { Sun, Flame, Thermometer, Zap, Droplets, Recycle } from 'lucide-react'
 
 const services = [
+  {
+  icon: Sun,
+  title: 'Heat Pump Systems',
+  description: 'Advanced energy-efficient heat pump solutions for hot water and process heating, reducing electricity consumption.',
+},
   {
     icon: Flame,
     title: 'Steam Boilers',
@@ -17,7 +22,7 @@ const services = [
   {
     icon: Zap,
     title: 'Steam Generators',
-    description: 'Compact, fast-response steam production units ideal for space-constrained industrial environments.',
+    description: 'Compact, fast-response steam production units ideal for industrial environments.',
   },
   {
     icon: Droplets,
@@ -77,7 +82,7 @@ export default function Services() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, i) => (
-              <div key={service.title} className={`fade-in-section delay-${i + 1}`}>
+              <div key={service.title} className={`fade-in-section delay-${i}`}>
                 <ServiceCard
                   icon={service.icon}
                   title={service.title}

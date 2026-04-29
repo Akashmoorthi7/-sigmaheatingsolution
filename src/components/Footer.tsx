@@ -21,16 +21,20 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-[#F97316] rounded flex items-center justify-center shrink-0">
-                <Flame className="w-5 h-5 text-white" />
-              </div>
+              {/* <div className="w-9 h-9 bg-[#F97316] rounded flex items-center justify-center shrink-0">
+               <Flame className="w-5 h-5 text-white" />
+              </div> */}
               <span className="font-['Oswald'] text-xl">
                 <span className="text-[#F97316]">SIGMA</span>
-                <span className="text-white">HEATING</span>
+                <span className="text-white"> HEATING</span>
+                <span className="text-white"> SOLUTION</span>
               </span>
             </div>
-            <p className="text-white/60 text-sm font-['DM_Sans'] leading-relaxed mb-6">
-              Engineering precision. Delivering reliability. Building a sustainable thermal future for industries across India.
+            <p className="text-white/60 text-sm font-['DM_Sans'] leading-relaxed mb-3">
+              Leading provider of <strong className="text-white/80">industrial heating solutions</strong> in Bangalore, India — supplying steam boilers, heat pump systems, solar hot water systems, and energy-efficient heating for factories, hospitals, hotels, and industries.
+            </p>
+            <p className="text-white/40 text-xs font-['DM_Sans'] mb-6">
+              📍 Chennai · Bangalore
             </p>
             <div className="flex gap-3">
               {[
@@ -78,18 +82,18 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm font-['DM_Sans'] text-white/60">
                 <MapPin className="w-4 h-4 text-[#F97316] shrink-0 mt-0.5" />
-                <span>123 Industrial Zone, Chennai,<br />Tamil Nadu – 600001</span>
+                <span>25(5), 13-4th Street, Surandai,<br />Tamil Nadu – 627859</span>
               </li>
               <li className="flex items-center gap-3 text-sm font-['DM_Sans'] text-white/60">
                 <Phone className="w-4 h-4 text-[#F97316] shrink-0" />
                 <a href="tel:+919876543210" className="hover:text-[#F97316] transition-colors">
-                  +91 98765 43210
+                  +91 97310 92255
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sm font-['DM_Sans'] text-white/60">
                 <Mail className="w-4 h-4 text-[#F97316] shrink-0" />
-                <a href="mailto:info@sigmaheating.com" className="hover:text-[#F97316] transition-colors">
-                  info@sigmaheating.com
+                <a href="mailto:sigmaheatingsolution@gmail.com" className="hover:text-[#F97316] transition-colors">
+                  sigmaheatingsolution@gmail.com
                 </a>
               </li>
             </ul>
@@ -100,8 +104,8 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-white/40 font-['DM_Sans']">
-          <span>© 2025 SigmaHeating Solution. All rights reserved.</span>
-          <span>Engineered for Excellence</span>
+          <span>© 2025 Sigma Heating Solutions, Chennai, Tamil Nadu, India. All rights reserved.</span>
+          <span>Heat Pump Based · Solar-Based · Steam Boiler-Based Systems · Hybrid Hot Water Systems · Utility Pipeline Work</span>
         </div>
       </div>
     </footer>

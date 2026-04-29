@@ -1,9 +1,16 @@
 // src/pages/Industries.tsx
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { Utensils, FlaskConical, HeartPulse, Hotel, Sprout, ArrowRight } from 'lucide-react'
+import {Factory, Utensils, FlaskConical, HeartPulse, Hotel, Sprout, ArrowRight } from 'lucide-react'
 
 const industries = [
+    {
+  icon: Factory,
+  title: 'General Manufacturing Industry',
+  subtitle: 'High-Performance Heating for Industrial Production',
+  description:
+    'Our industrial boilers and heat pump systems support a wide range of manufacturing processes delivering consistent heat, improved efficiency, and reduced operational costs.',
+  },
   {
     icon: Utensils,
     title: 'Food & Beverage',

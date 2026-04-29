@@ -37,12 +37,12 @@ export default function Navbar() {
             className="flex items-center gap-2 group"
             onClick={() => setMenuOpen(false)}
           >
-            <div className="w-9 h-9 bg-[#F97316] rounded flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+            {/* <div className="w-9 h-9 bg-[#F97316] rounded flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
               <Flame className="w-5 h-5 text-white" />
-            </div>
+            </div> */}
             <span className="font-['Oswald'] text-xl md:text-2xl tracking-wide">
               <span className="text-[#F97316]">SIGMA</span>
-              <span className="text-white">HEATING SOLUTION</span>
+              <span className="text-white"> HEATING SOLUTIONS</span>
             </span>
           </Link>
 
