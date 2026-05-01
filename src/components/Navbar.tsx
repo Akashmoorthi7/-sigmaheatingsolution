@@ -40,7 +40,12 @@ export default function Navbar() {
             {/* <div className="w-9 h-9 bg-[#F97316] rounded flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
               <Flame className="w-5 h-5 text-white" />
             </div> */}
-            <span className="font-['Oswald'] text-xl md:text-2xl tracking-wide">
+              <img
+                src="/logo.png"
+                alt="Sigma Heating Solutions"
+                 className="w-9 h-9 object-contain shrink-0 group-hover:scale-110 transition-transform"
+              />
+            <span className="font-['Oswald'] text-2xl md:text-3xl tracking-wide">
               <span className="text-[#F97316]">SIGMA</span>
               <span className="text-white"> HEATING SOLUTIONS</span>
             </span>
