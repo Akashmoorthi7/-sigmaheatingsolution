@@ -80,20 +80,20 @@ export default function Contact() {
                   {
                     icon: MapPin,
                     label: 'Our Address',
-                    value: '123 Industrial Zone, Chennai, Tamil Nadu – 600001',
+                    value: '25(5), 13-4th Street, Surandai,Tamil Nadu – 627859',
                     href: undefined,
                   },
                   {
                     icon: Phone,
                     label: 'Phone Number',
-                    value: '+91 98765 43210',
-                    href: 'tel:+919876543210',
+                    value: '+91 97310 92255',
+                    href: 'tel:+919731092255',
                   },
                   {
                     icon: Mail,
                     label: 'Email Address',
-                    value: 'info@sigmaheating.com',
-                    href: 'mailto:info@sigmaheating.com',
+                    value: 'sigmaheatingsolution@gmail.com',
+                    href: 'mailto:sigmaheatingsolution@gmail.com',
                   },
                 ].map((item) => {
                   const Icon = item.icon
@@ -120,8 +120,8 @@ export default function Contact() {
               {/* Map placeholder */}
               <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm h-64">
                 <iframe
-                  title="SigmaHeating Chennai Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.84916296526!2d80.00672!3d13.047478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000"
+                  title="SigmaHeating Bengaluru Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19801.65009650835!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670f7d3a3c9%3A0x7f8c8b8e1f7f2d3!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
